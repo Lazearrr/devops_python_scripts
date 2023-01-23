@@ -10,8 +10,8 @@ def get_current_time():
     return stripped
 
 def calculate_input_epoch():
-    #days = os.getenv("days")
-    days = 30
+    days = os.getenv("days")
+    days = int(days)
     days_epoch_ms = days * 86400000
     return days_epoch_ms
 
