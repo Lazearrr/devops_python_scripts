@@ -6,13 +6,13 @@ def get_current_time():
 
     sep = '.'
     stripped = current_time.split(sep, 1)[0]
-    stripped = stripped + "000"
+    #stripped = stripped + "000"
     return stripped
 
 def calculate_input_epoch():
     days = os.getenv("days")
     days = int(days)
-    days_epoch_ms = days * 86400000
+    #days_epoch_ms = days * 86400000
     print(days_epoch_ms)
     return days_epoch_ms
 
