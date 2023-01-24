@@ -14,11 +14,9 @@ def calculate_input_epoch():
     days = int(days)
     days_epoch_ms = days
     #days_epoch_ms = days * 86400000
-    print(days_epoch_ms)
     return days_epoch_ms
 
 first = int(get_current_time())
 second = int(calculate_input_epoch())
 
 third = first - second
-print(third)
