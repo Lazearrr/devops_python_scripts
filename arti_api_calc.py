@@ -20,4 +20,4 @@ second = int(calculate_input_epoch())
 
 third = first - second
 str(third)
-print(third.strip())
+print(third)
