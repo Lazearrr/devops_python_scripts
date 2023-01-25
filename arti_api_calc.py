@@ -19,5 +19,4 @@ first = int(get_current_time())
 second = int(calculate_input_epoch())
 
 third = first - second
-third.strip()
-print(third)
+print(third.strip())
